@@ -56,6 +56,8 @@ h1 {
     
 }
 
+
+
 h2 {
     font-family: arial;
     text-align: center;
@@ -77,6 +79,17 @@ h2 {
     max-width: 320px;
 }
 
+.domov-link {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.domov-link:hover {
+    border: none;
+}
+
 .opcija1 img {
     width: 100%;
 }
@@ -85,6 +98,18 @@ h2 {
 {
     width: 100%;
     height: auto;
+}
+
+h3 {
+    width: 100%;
+    padding-left: 10px;
+    font-family: 'Viga', sans-serif;
+    font-weight: 100;
+    background-color: rgb(206, 222, 206);
+}
+
+.opis {
+    position: relative;
 }
 
 a {
@@ -100,4 +125,8 @@ a {
 
 a:hover {
     border: 3px solid black;
+}
+
+table {
+    font-family: 
 }
